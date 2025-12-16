@@ -1,6 +1,6 @@
 {
   "name": "Save Restricted Content Bot v3",
-  "description": "Save Restricted Content Bot by Team SPY",
+  "description": "Save Restricted Content Bot by Spidy",
   "logo": "https://lh3.googleusercontent.com/-HPcn7AqepNg/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknb1BkQiq-8_KUVOYcNAJ4swKivDQ/photo.jpg",
   "keywords": ["python3", "telegram", "MusicBot", "telegram-bot", "pyrogram"],
   "repository": "https://github.com/devgaganin/save_restricted-content-telegram-bot-repo",
@@ -43,22 +43,22 @@
     },
     "FORCE_SUB": {
       "description": "Channel ID (with -100 prefix) for forced subscription",
-      "value": "-10012345567",
+      "value": "-1002974156344",
       "required": true
     },
     "LOG_GROUP": {
       "description": "Log channel/group ID (with -100 prefix) where the bot will send logs",
-      "value": "-1001234456",
+      "value": "-1002891775044",
       "required": true
     },
     "MASTER_KEY": {
       "description": "Master key used for session encryption",
-      "value": "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq",
+      "value": "lxp247puihtR4X3fFtA1olArAPLdYbCM",
       "required": false
     },
     "IV_KEY": {
       "description": "Initialization vector key for decryption",
-      "value": "s7Yx5CpVmE3F",
+      "value": "i6OIBem0lGnJqX50",
       "required": false
     },
     "YT_COOKIES": {
@@ -73,22 +73,22 @@
     },
     "FREEMIUM_LIMIT": {
       "description": "Limit for freemium users (in MB or desired unit)",
-      "value": "0",
+      "value": "100",
       "required": false
     },
     "PREMIUM_LIMIT": {
       "description": "Limit for premium users (in MB or desired unit)",
-      "value": "500",
+      "value": "1000",
       "required": false
     },
     "ADMIN_CONTACT": {
       "description": "type admin contact link",
-      "value": "https://t.me/kingofpatal",
+      "value": "https://t.me/SpidyXSupport_Bot",
       "required": true
     },
     "JOIN_LINK": {
       "description": "type join channel link which comes on /start",
-      "value": "https://t.me/team_spy_pro",
+      "value": "https://t.me/SpidyXBatches",
       "required": true
     }
   },
@@ -98,3 +98,4 @@
   ],
   "stack": "container"
 }
+

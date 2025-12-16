@@ -1,7 +1,3 @@
-# Copyright (c) 2025 devgagan : https://github.com/devgaganin.  
-# Licensed under the GNU General Public License v3.0.  
-# See LICENSE file in the repository root for full license text.
-
 import asyncio
 from shared_client import start_client
 import importlib
@@ -39,3 +35,4 @@ if __name__ == "__main__":
             loop.close()
         except Exception:
             pass
+

@@ -1,7 +1,3 @@
-# Copyright (c) 2025 Gagan : https://github.com/devgaganin.  
-# Licensed under the GNU General Public License v3.0.  
-# See LICENSE file in the repository root for full license text.
-
 from shared_client import client as bot_client, app
 from telethon import events
 from datetime import timedelta
@@ -102,4 +98,5 @@ async def start_handler(client, message):
         fd,
         caption=b6,
         reply_markup=kb
+
     )
